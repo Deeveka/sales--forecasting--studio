@@ -1,0 +1,7 @@
+streamlit>=1.40
+pandas>=2.0
+numpy>=1.26
+plotly>=5.20
+# The model was saved with scikit-learn 1.6.1. Using the SAME version avoids
+# pickle compatibility warnings/errors.
+scikit-learn==1.6.1
